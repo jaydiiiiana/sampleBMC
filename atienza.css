@@ -1,0 +1,29 @@
+body{
+    margin: 8px;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+     font-size: xx-large;    
+     text-transform: uppercase;    
+     text-align: left;  
+     color: rgb(0, 0, 0);    
+     text-shadow: 6px 6px 9px black;
+}
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+   gap: 100px;
+   
+}
+.img_container img{
+    box-shadow: 16px 16px 22px rgba(0, 0, 0, 0.532);
+    height: 15%;
+    width: 22vw;
+    border-radius: 12px;
+}
+.main_container{
+    margin: 6rem;
+}
